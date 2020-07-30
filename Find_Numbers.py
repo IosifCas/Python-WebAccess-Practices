@@ -13,10 +13,10 @@ s = 0
 i = 0
 for line in fhand :
     line = line.rstrip()
-    if re.search('[0-9]+\S+?', line) :
-        n = re.findall('[0-9]+\S?', line)
-        print(n)
-        i = 0
+    re.search('[0-9]+\S+?', line)
+    n = re.findall('[0-9]+\S?', line)
+    print(n)
+    i = 0
         for part in n :
             part = n[i]
             print(part)
